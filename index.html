@@ -10,8 +10,8 @@
     </head>
     <body>
         
-        <header id="header">
-            <nav id="nav-bar" class="navbar navbar-light bg-light">
+        <header id="header fixed-top">
+            <nav id="nav-bar" class="navbar navbar-light flex-s-column">
                 <!-- logo -->
                 <div class="navbar-brand">
                     <img 
@@ -38,10 +38,25 @@
                 <!-- nav item -->
             </nav>
         </header>
-        
-        <main>
-            
-        </main>
-    </body>
+            <br>
 
+            <!-- form -->
+            <form 
+                class="text-center" 
+                id="form"
+                action="https://www.freecodecamp.com/email-submit"
+                >
+                <h4 class="font-weight-bold">Handcrafted, home-made masterpieces</h4> <br>
+                <input 
+                    type="text" 
+                    placeholder="Enter your email address" 
+                    id="email"
+                    required
+                    > <br> <br>
+
+                <input id="submit" type="submit" value="Get Started" class="btn btn-warning text-uppercase font-weight-bold" />
+            </form>
+            <!-- form -->
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
 </html>
