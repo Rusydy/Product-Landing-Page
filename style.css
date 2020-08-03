@@ -12,5 +12,17 @@ body {
 }
 
 .logo {
-    width: 40vw;
+    width: 20vw;
+}
+
+.main{
+    position: relative;
+    top: 5em;
+    bottom: 5em;
+}
+
+#video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
