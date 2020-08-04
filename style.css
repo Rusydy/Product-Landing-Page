@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: #f8f9fa;
     font-family: 'Lato', sans-serif;
 }
 
@@ -15,7 +15,10 @@ body {
     width: 20vw;
 }
 
-/* put media quari of logo 50vw on mobile devices */
+/* put media quari of logo 
+    50vw on mobile devices to
+    20vw on PC
+*/
 
 .main{
     position: relative;
@@ -26,6 +29,11 @@ body {
 #form{
     margin-top: 20px;
     margin-bottom: 70px;
+}
+
+#items{
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .icon{
@@ -54,13 +62,15 @@ footer {
     top: 5em;
     bottom: 5em;
     margin-top: 30px;
-    background-color: #ddd;
+    background-color: #f8f9fa;
     padding: 20px;
 }
 
 footer > ul {
+    list-style: none;
     display: flex;
     justify-content: flex-end;
+
 }
 
 footer > ul > li {
